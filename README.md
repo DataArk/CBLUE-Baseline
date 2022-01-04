@@ -19,5 +19,22 @@ pip install pandas
 
 ## 使用说明
 
+项目目录按以下格式设置，注意运行CHIP-CDN时，需要其代码移动到code目录下
+
+```shell
+│
+├── data                                    # 数据文件夹
+│   ├── source_datasets                     
+│   ├── task_datasets           
+│   └── output_datasets                           
+│
+├── checkpoint                              # 存放训练好的模型
+│   ├── ...           
+│   └── ...                                      
+│
+└── code                                    # 代码
+```
+
+
 下载数据并解压到`data/source_datasets`中，运行`code`文件夹中的`.ipynb`文件，最终提交文件会生成在`data/output_datasets`
 
