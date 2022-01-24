@@ -10,6 +10,8 @@
 
 测评链接：https://tianchi.aliyun.com/dataset/dataDetail?dataId=95414
 
+baseline方法介绍：https://mp.weixin.qq.com/s/O4r-gSr3EWdoCG5nHZIghQ
+
 ## 环境
 
 ```
